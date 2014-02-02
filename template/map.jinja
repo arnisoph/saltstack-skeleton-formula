@@ -1,0 +1,12 @@
+{% set template = salt['grains.filter_by'](
+  {
+    'Debian': {
+      'foo': True,
+      'bar': 'foo',
+      'fo': (
+        'ob',
+        'ar',
+      ),
+    },
+  }
+, merge=salt['pillar.get']('template:lookup')) %}
