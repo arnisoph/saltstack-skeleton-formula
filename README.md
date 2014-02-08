@@ -2,13 +2,15 @@
 
 Salt Stack Formula template that has dummy content to help with a quick start on a new one
 
+## NOTICE BEFORE USE
+
+* This formula aims to follow the conventions and recommendations described at [http://docs.saltstack.com/topics/conventions/formulas.html](http://docs.saltstack.com/topics/conventions/formulas.html)
+
 ## TODO
 
 Define tasks to complete:
 
-* A
-* Foo
-* Bar
+* None
 
 ## Instructions
 

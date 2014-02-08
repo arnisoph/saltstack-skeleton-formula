@@ -1,2 +1,2 @@
-{% from "template/map.jinja" import template with context %}
+{% from "template/map.jinja" import datamap with context %}
 
