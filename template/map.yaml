@@ -1,0 +1,6 @@
+Debian:
+  foo: True
+  bar: foo
+  fo:
+    - ob
+    - ar
