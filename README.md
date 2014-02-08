@@ -2,7 +2,7 @@
 
 Salt Stack Formula template that has dummy content to help with a quick start on a new one
 
-## NOTICE BEFORE USE
+## NOTICE BEFORE YOU USE
 
 * This formula aims to follow the conventions and recommendations described at [http://docs.saltstack.com/topics/conventions/formulas.html](http://docs.saltstack.com/topics/conventions/formulas.html)
 
