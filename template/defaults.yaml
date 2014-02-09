@@ -1,6 +1,8 @@
+{% load_yaml as rawmap %}
 Debian:
   foo: True
   bar: foo
   fo:
     - ob
     - ar
+{% endload %}
