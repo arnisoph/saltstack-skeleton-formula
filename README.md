@@ -10,7 +10,7 @@ Salt Stack Formula template that has dummy content to help with a quick start on
 
 Define tasks to complete:
 
-* None
+* use module defaults.get as soon as it gets stable
 
 ## Instructions
 
