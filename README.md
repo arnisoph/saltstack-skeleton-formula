@@ -34,7 +34,20 @@ None
 
 None
 
-## Compatibility
+## Contributions
+
+Contributions are always welcome. All development guidelines you have to know are
+
+* write clean code (proper YAML+Jinja syntax, no trailing whitespaces, no empty lines with whitespaces, LF only)
+* set sane default settings
+* test your code
+* update README.md doc
+
+## Salt Compatibility
+
+* >= 2014.1.0
+
+## OS Compatibility
 
 *DOES* work on:
 
