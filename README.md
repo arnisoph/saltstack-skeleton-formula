@@ -45,16 +45,12 @@ Contributions are always welcome. All development guidelines you have to know ar
 
 ## Salt Compatibility
 
-* >= 2014.1.0
+Tested with:
+
+* 2014.1.0
 
 ## OS Compatibility
 
-*DOES* work on:
+Tested with:
 
-* Foo
-* Bar
-
-*SHOULD* work on:
-
-* Foo
-* Bar
+* GNU/ Linux Debian Wheezy
