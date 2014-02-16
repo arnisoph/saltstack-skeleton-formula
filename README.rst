@@ -19,7 +19,7 @@ Define tasks to complete:
 Instructions
 ============
 
-1. Add this repository as a `GitFS<http://docs.saltstack.com/topics/tutorials/gitfs.html>`_ backend in your Salt master config.
+1. Add this repository as a `GitFS <http://docs.saltstack.com/topics/tutorials/gitfs.html>`_ backend in your Salt master config.
 
 2. Configure your Pillar top file (``/srv/pillar/top.sls``), see pillar.example
 
@@ -54,7 +54,7 @@ Contributions are always welcome. All development guidelines you have to know ar
 * write clean code (proper YAML+Jinja syntax, no trailing whitespaces, no empty lines with whitespaces, LF only)
 * set sane default settings
 * test your code
-* update README.md doc
+* update README.rst doc
 
 Salt Compatibility
 ==================
