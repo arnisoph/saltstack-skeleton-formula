@@ -28,7 +28,11 @@ Instructions
 Available states
 ================
 
+.. contents::
+    :local:
+
 ``template``
+------------
 
 Describe what this state does.
 
