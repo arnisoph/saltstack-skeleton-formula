@@ -21,7 +21,7 @@ Instructions
 
 1. Add this repository as a `GitFS <http://docs.saltstack.com/topics/tutorials/gitfs.html>`_ backend in your Salt master config.
 
-2. Configure your Pillar top file (``/srv/pillar/top.sls``), see pillar.example
+2. Configure your Pillar top file (``/srv/pillar/top.sls``) and your pillars, see pillar.example.sls
 
 3. Include this Formula within another Formula or simply define your needed states within the Salt top file (``/srv/salt/top.sls``).
 
