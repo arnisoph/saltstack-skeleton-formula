@@ -40,6 +40,11 @@ Additional resources
 
 None
 
+Templates
+=========
+
+Some states/ commands may access to templates which aren't included in the files folder (``template/files``). Take a look at ``examples/`` for e.g. template examples and place them in separate file roots (e.g. Git repository, refer to `GitFS <http://docs.saltstack.com/topics/tutorials/gitfs.html>`_).
+
 Formula Dependencies
 ====================
 
@@ -60,7 +65,6 @@ Salt Compatibility
 
 Tested with:
 
-* 2014.1.3
 * 2014.1.4
 
 OS Compatibility
@@ -68,4 +72,4 @@ OS Compatibility
 
 Tested with:
 
-* GNU/ Linux Debian Wheezy 7.5
+* GNU/ Linux Debian Wheezy
