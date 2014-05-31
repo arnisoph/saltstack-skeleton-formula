@@ -43,7 +43,7 @@ None
 Templates
 =========
 
-Some states/ commands may refer to templates which aren't included in the files folder (``template/files``). Take a look at ``examples/`` for e.g. template examples and place them in separate file roots (e.g. Git repository, refer to `GitFS <http://docs.saltstack.com/topics/tutorials/gitfs.html>`_) in your Salt master config.
+Some states/ commands may refer to templates which aren't included in the files folder (``template/files``). Take a look at ``contrib/`` (if present) for e.g. template examples and place them in separate file roots (e.g. Git repository, refer to `GitFS <http://docs.saltstack.com/topics/tutorials/gitfs.html>`_) in your Salt master config.
 
 Formula Dependencies
 ====================
