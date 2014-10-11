@@ -2,10 +2,10 @@
 template-formula
 ================
 
-Salt Stack Formula template that has dummy content to help with a quick start on a new one
-
 .. image:: https://api.flattr.com/button/flattr-badge-large.png
     :target: https://flattr.com/submit/auto?user_id=bechtoldt&url=https%3A%2F%2Fgithub.com%2Fbechtoldt%2Ftemplate-formula
+
+Salt Stack Formula template that has dummy content to help with a quick start on a new one
 
 NOTICE BEFORE YOU USE
 ---------------------
