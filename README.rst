@@ -84,10 +84,3 @@ AUTHORS
 Please add yourself too when contributing (sorted alphabetically)!
 
 * Arnold Bechtoldt <mail@arnoldbechtoldt.com>
-
-AUTHORS
--------
-
-Please add yourself too when contributing (sorted alphabetically)!
-
-* Arnold Bechtoldt <mail@arnoldbechtoldt.com>
