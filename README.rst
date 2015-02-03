@@ -20,6 +20,7 @@ Define tasks to complete:
 * use module defaults.get as soon as it gets stable
 * update README template
 * clearify LICENSE
+* add SLS example with using the #!py renderer
 
 Instructions
 ------------
