@@ -2,15 +2,18 @@
 saltstack-template-formula
 ==========================
 
+.. image:: http://img.shields.io/github/tag/bechtoldt/saltstack-template-formula.svg
+    :target: https://github.com/bechtoldt/saltstack-template-formula/tags
+
 .. image:: https://api.flattr.com/button/flattr-badge-large.png
     :target: https://flattr.com/submit/auto?user_id=bechtoldt&url=https%3A%2F%2Fgithub.com%2Fbechtoldt%2Fsaltstack-template-formula
 
-Salt Stack Formula template that has dummy content to help with a quick start on a new one
+SaltStack formula template that can be used as skeleton for new formulas
 
-NOTICE BEFORE YOU USE
----------------------
+.. contents::
+    :backlinks: none
+    :local:
 
-* This formula aims to follow the conventions and recommendations described at http://docs.saltstack.com/en/latest/topics/development/conventions/formulas.html#conventions-formula and http://docs.saltstack.com/en/latest/topics/best_practices.html
 
 TODO
 ----
