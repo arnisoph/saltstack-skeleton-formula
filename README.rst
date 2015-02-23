@@ -21,6 +21,7 @@ Define tasks to complete:
 * update README template
 * clearify LICENSE
 * table/ matrix: os/salt compatibility
+* add SLS example with using the #!py renderer
 
 Instructions
 ------------
