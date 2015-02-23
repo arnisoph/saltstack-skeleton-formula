@@ -36,6 +36,7 @@
 ehthumbs.db
 Thumbs.db
 *.pyc
+*.slsc
 
 # IDEs and editors#
 ###################
