@@ -1,0 +1,29 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+#
+Vagrant.require_version ">= 1.6.5"
+
+Vagrant.configure("2") do |config|
+
+  BOX_NAME=ENV['BOX_NAME'] || 'vagrant'
+  BOX_BASE_PATH=ENV['BOX_BASE']
+  BOX_PRIV_KEY=ENV['BOX_PRIV_KEY']
+
+  config.vm.box = BOX_NAME
+  config.vm.box_url = "file://" + __dir__ + "/#{BOX_BASE_PATH}"
+  #config.ssh.private_key_path = BOX_PRIV_KEY.split(',')
+  config.vm.synced_folder ".", "/vagrant", :disabled => true
+
+  # Plugins
+  if Vagrant.has_plugin?("vagrant-cachier")
+     config.cache.scope = :box
+  end
+
+  # Providers
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = false
+    vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+  end
+
+  # Provision
+end
