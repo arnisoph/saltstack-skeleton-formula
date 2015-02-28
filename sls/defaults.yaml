@@ -1,6 +1,6 @@
 os_family:
   Amazon:
-    system: Arch family
+    system: Amazon family
   Arch:
     system: Arch family
   Debian:
@@ -21,6 +21,6 @@ os:
   Debian:
     system: Debian specific
   Fedora:
-    system: Debian specific
+    system: Fedora specific
   Ubuntu:
     system: Ubuntu specific
