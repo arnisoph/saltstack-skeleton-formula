@@ -1,3 +1,6 @@
+kernel:
+  Linux:
+    system: Global default
 os_family:
   Amazon:
     system: Amazon family
@@ -14,7 +17,7 @@ os_family:
   RedHat:
     system: RedHat family
   default:
-    system: Unknown
+    system: Unknown family
 os:
   CentOS:
     system: CentOS specific
