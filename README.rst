@@ -21,11 +21,11 @@ Instructions
 ------------
 
 Please refer to https://github.com/bechtoldt/formula-docs to learn how to use
-this formula and how it is built.
+this formula, how it is built and how you can add your changes.
 
 
-Salt Compatibility
-------------------
+Compatibility
+-------------
 
 See <TODO> file to see which Salt versions and operating systems are supported.
 
@@ -49,7 +49,7 @@ In general:
 3. Submit your pull request (PR) on Github, wait for feedback
 
 
-Additional resources
+Additional Resources
 --------------------
 
 None
