@@ -11,7 +11,7 @@ saltstack-skeleton-formula
 .. image:: https://api.flattr.com/button/flattr-badge-large.png
     :target: https://flattr.com/submit/auto?user_id=bechtoldt&url=https%3A%2F%2Fgithub.com%2Fbechtoldt%2Fsaltstack-skeleton-formula
 
-SaltStack formula template that can be used as skeleton for new formulas
+SaltStack formula skeleton that can be used for new formulas
 
 .. contents::
     :backlinks: none
