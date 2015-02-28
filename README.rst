@@ -5,7 +5,7 @@ saltstack-template-formula
 .. image:: http://img.shields.io/github/tag/bechtoldt/saltstack-template-formula.svg
     :target: https://github.com/bechtoldt/saltstack-template-formula/tags
 
-.. image:: http://issuestats.com/github/bechtoldt/saltstack-template-formula/badge/pr
+.. image:: http://issuestats.com/github/bechtoldt/saltstack-template-formula/badge/issue
     :target: http://issuestats.com/github/bechtoldt/saltstack-template-formula
 
 .. image:: https://api.flattr.com/button/flattr-badge-large.png
