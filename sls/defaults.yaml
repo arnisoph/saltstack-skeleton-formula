@@ -1,15 +1,26 @@
-kernel:
-  Linux:
-    system: Unknown
 os_family:
+  Amazon:
+    system: Arch family
+  Arch:
+    system: Arch family
   Debian:
     system: Debian family
+  FreeBSD:
+    system: FreeBSD family
+  Gentoo:
+    system: Gentoo family
+  Suse:
+    system: Suse family
   RedHat:
     system: RedHat family
+  default:
+    system: Unknown
 os:
+  CentOS:
+    system: CentOS specific
   Debian:
+    system: Debian specific
+  Fedora:
     system: Debian specific
   Ubuntu:
     system: Ubuntu specific
-  CentOS:
-    system: CentOS specific
