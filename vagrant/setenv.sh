@@ -1,9 +1,17 @@
-formula_git_name="$(git rev-parse --show-toplevel)"
-formula_git_name=${formula_git_name##*/}
+[[ -e .env ]] && source .env
 
-#########################################
+if [[ -z "$box_name" ]]; then
+  formula_git_name="$(git rev-parse --show-toplevel)"
+  formula_git_name=${formula_git_name##*/}
+  export BOX_NAME=${formula_git_name}
+else
+  export BOX_NAME=${box_name}
+fi
 
-export \
-  BOX_NAME=${formula_git_name} \
-  BOX_PRIV_KEY=../../vagrant-devenv/shared/keys/id_rsa \
-  BOX_BASE=../../vagrant-devenv/shared/boxes/DEV_Debian_78_min-virtualbox-v0.3-6-g9d6df6b.box
+if [[ -z "$box_base_path" ]]; then
+  export BOX_BASE_PATH=${box_base_path}
+else
+  export BOX_BASE_PATH=${box_base_path}
+fi
+
+#BOX_PRIV_KEY=../../vagrant-devenv/shared/keys/id_rsa \

@@ -6,7 +6,7 @@ Vagrant.require_version ">= 1.6.5"
 Vagrant.configure("2") do |config|
 
   BOX_NAME=ENV['BOX_NAME'] || 'vagrant'
-  BOX_BASE_PATH=ENV['BOX_BASE']
+  BOX_BASE_PATH=ENV['BOX_BASE_PATH']
   BOX_PRIV_KEY=ENV['BOX_PRIV_KEY']
 
   config.vm.box = BOX_NAME

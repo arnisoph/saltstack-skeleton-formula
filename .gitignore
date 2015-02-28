@@ -46,5 +46,5 @@ Thumbs.db
 *.iml
 *~
 
-#vagrant/setenv.sh
+vagrant/.env
 vagrant/.vagrant/
