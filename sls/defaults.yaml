@@ -1,0 +1,15 @@
+kernel:
+  Linux:
+    system: Unknown
+os_family:
+  Debian:
+    system: Debian family
+  RedHat:
+    system: RedHat family
+os:
+  Debian:
+    system: Debian specific
+  Ubuntu:
+    system: Ubuntu specific
+  CentOS:
+    system: CentOS specific

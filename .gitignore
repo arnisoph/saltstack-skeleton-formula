@@ -38,13 +38,15 @@ Thumbs.db
 *.pyc
 *.slsc
 
-# IDEs and editors#
-###################
+# IDEs and editors #
+####################
 .project
 *.sw*
 .idea
 *.iml
 *~
 
+# Development VMs and containers #
+##################################
 vagrant/.env
 vagrant/.vagrant/
