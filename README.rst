@@ -49,15 +49,15 @@ In general:
 3. Submit your pull request (PR) on Github, wait for feedback
 
 
-Additional Resources
---------------------
-
-None
-
-
 TODO
 ----
 
 * add instructions how to use formhelper, add information about it in the
   formula-docs (dependency), show up alternative?
 * table/ matrix: os/salt compatibility (dedicated file)
+
+
+Additional Resources
+--------------------
+
+None
