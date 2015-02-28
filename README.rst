@@ -84,10 +84,3 @@ OS Compatibility
 Tested with:
 
 * GNU/ Linux Debian Wheezy
-
-AUTHORS
--------
-
-Please add yourself too when contributing (sorted alphabetically)!
-
-* Arnold Bechtoldt <mail@arnoldbechtoldt.com>
