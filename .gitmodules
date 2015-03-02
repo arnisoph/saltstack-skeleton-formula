@@ -1,0 +1,3 @@
+[submodule "vagrant/box"]
+	path = vagrant/box
+	url = https://github.com/bechtoldt/saltstack-formulas-vagrant.git

@@ -48,5 +48,6 @@ Thumbs.db
 
 # Development VMs and containers #
 ##################################
+.vagrant/
 vagrant/.env
 vagrant/.vagrant/
