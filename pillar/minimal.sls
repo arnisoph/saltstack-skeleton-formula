@@ -1,3 +1,3 @@
-template:
+skeleton:
   lookup:
     system: Pillar specific

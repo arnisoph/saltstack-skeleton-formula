@@ -1,2 +1,2 @@
 include:
-  - template.minimal
+  - skeleton.minimal
