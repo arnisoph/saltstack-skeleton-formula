@@ -4,8 +4,11 @@ client1:
   base_box_basedir: ../../../vagrant-devenv/shared/boxes
   domain: local.arnoldbechtoldt.com
   provision:
-    - name: saltstack
-      modules:
+    - name: basic
+    - name: saltstack_setup
+    - name: saltstack_modules
+      modules_custom: ../../salt-modules/_modules
+      formulas:
         - name: skeleton
           base_dir: ../..
         - name: network
