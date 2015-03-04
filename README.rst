@@ -55,6 +55,7 @@ TODO
 * add instructions how to use formhelper, add information about it in the
   formula-docs (dependency), show up alternative?
 * table/ matrix: os/salt compatibility (dedicated file)
+* add list of available states
 
 
 Additional Resources
