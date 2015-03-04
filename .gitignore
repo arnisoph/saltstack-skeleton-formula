@@ -45,6 +45,7 @@ Thumbs.db
 .idea
 *.iml
 *~
+*.tmp
 
 # Development VMs and containers #
 ##################################
