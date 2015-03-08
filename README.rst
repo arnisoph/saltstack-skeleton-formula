@@ -56,9 +56,16 @@ TODO
   formula-docs (dependency), show up alternative?
 * table/ matrix: os/salt compatibility (dedicated file)
 * add list of available states
+* add tests
 
 
 Additional Resources
 --------------------
 
-* `saltstack-salt-formula <https://github.com/bechtoldt/saltstack-salt-formula>`_ recommended for SaltStack management
+Recommended formulas:
+
+* `saltstack-salt-formula <https://github.com/bechtoldt/saltstack-salt-formula>`_: SaltStack management
+
+Further reading:
+
+* https://github.com/bechtoldt/formula-docs: Documentation and Standardisation of SaltStack formulas
