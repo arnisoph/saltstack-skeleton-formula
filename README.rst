@@ -61,4 +61,4 @@ TODO
 Additional Resources
 --------------------
 
-None
+* `saltstack-salt-formula <https://github.com/bechtoldt/saltstack-salt-formula>`_ recommended for SaltStack management

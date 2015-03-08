@@ -12,6 +12,7 @@ cmd_date:
     - run
     - name: echo The time is $(date)
 
+
 cmd_system:
   cmd:
     - run
