@@ -64,8 +64,8 @@ Additional Resources
 
 Recommended formulas:
 
-* `saltstack-salt-formula <https://github.com/bechtoldt/saltstack-salt-formula>`_: SaltStack management
+* SaltStack management: `saltstack-salt-formula <https://github.com/bechtoldt/saltstack-salt-formula>`_
 
 Further reading:
 
-* https://github.com/bechtoldt/formula-docs: Documentation and Standardisation of SaltStack formulas
+* Documentation and Standardisation of SaltStack formulas: https://github.com/bechtoldt/formula-docs
