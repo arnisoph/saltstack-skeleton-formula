@@ -50,6 +50,6 @@ Thumbs.db
 # Development VMs and containers #
 ##################################
 .vagrant/
-vagrant/.env
-vagrant/.vagrant/
-vagrant/nodes.yaml
+test/.env
+test/.vagrant/
+test/nodes.yaml
