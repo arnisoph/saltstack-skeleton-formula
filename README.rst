@@ -48,6 +48,7 @@ In general:
 2. Add changes, test them, update docs (README.rst) if possible
 3. Submit your pull request (PR) on Github, wait for feedback
 
+But it’s better to `file an issue <https://github.com/bechtoldt/saltstack-skeleton-formula/issues/new>`_ with your idea first.
 
 TODO
 ----

@@ -1,10 +1,9 @@
 [Unreleased] ([unreleased])
 ---------------------------
-* move nodes.yaml.dist to iac-vagrant git repo
-* update vagrant config file (nodes.yaml)
-* add CHANGELOG
+* moved nodes.yaml.dist to iac-vagrant git repo
+* updated vagrant config file (nodes.yaml)
+* added CHANGELOG
 
-0.1 (2015-02-23)
-----------------
+v0.1 (2015-02-23)
+-----------------
 * initial release
-
