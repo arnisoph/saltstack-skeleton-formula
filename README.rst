@@ -50,6 +50,7 @@ In general:
 
 But it’s better to `file an issue <https://github.com/bechtoldt/saltstack-skeleton-formula/issues/new>`_ with your idea first.
 
+
 TODO
 ----
 
