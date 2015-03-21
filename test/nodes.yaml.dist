@@ -17,5 +17,7 @@ defaults:
           base_dir: ../..
         - name: network
           base_dir: ../../../saltstack-network-formula
+    - name: saltstack_config
+    - name: saltstack_services
 nodes:
   client1: {}
