@@ -1,13 +1,16 @@
 ---
 defaults:
-  domain: local.arnoldbechtoldt.com
+  domain: iacvagrant.local.arnoldbechtoldt.com
+  base_box: DEV_Debian_78_salt_arbe_git-virtualbox-v0.4-4-gc6b98de.box
+  base_box_basedir: ../../../vagrant-devenv/shared/boxes
+  osfam: debian
   synced_folders:
-    - src: scripts/debian
+    - src: assets/scripts/provision/
       dst: /vagrant/scripts
   provision:
     - name: basic
-    - name: saltstack_setup
-    - name: saltstack_modules
+#    - name: saltstack_setup
+    - name: saltstack_formulas
       modules_custom: ../../../salt-modules/_modules
       formulas:
         - name: skeleton
@@ -15,6 +18,4 @@ defaults:
         - name: network
           base_dir: ../../../saltstack-network-formula
 nodes:
-  client1:
-    base_box: DEV_Debian_78_min-virtualbox-v0.3-9-gdba595d.box
-    base_box_basedir: ../../../vagrant-devenv/shared/boxes
+  client1: {}
