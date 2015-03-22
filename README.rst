@@ -23,6 +23,14 @@ Instructions
 Please refer to https://github.com/bechtoldt/formula-docs to learn how to use
 this formula, how it is built and how you can add your changes.
 
+**NOTICE:** This formula uses the formhelper module which is a very useful Salt execution module that isn't available
+in upstream yet. Please consider retrieving it manually from `salt-modules <https://github.com/bechtoldt/salt-modules>`_ and
+make it available to your Salt installation. Read `SaltStack documentation <http://docs.saltstack.com/en/latest/ref/modules/#modules-are-easy-to-write>` to
+see how this can be achieved.
+
+Take a look at older `releases <https://github.com/bechtoldt/saltstack-skeleton-formula/releases>` to get a version that isn't using the formhelper
+yet (if any).
+
 
 Compatibility
 -------------
