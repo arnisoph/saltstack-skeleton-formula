@@ -28,7 +28,7 @@ in upstream yet. Please consider retrieving it manually from `salt-modules <http
 make it available to your Salt installation. Read `SaltStack documentation <http://docs.saltstack.com/en/latest/ref/modules/#modules-are-easy-to-write>` to
 see how this can be achieved.
 
-Take a look at older `releases <https://github.com/bechtoldt/saltstack-skeleton-formula/releases>` to get a version that isn't using the formhelper
+Take a look at older `releases <https://github.com/bechtoldt/saltstack-skeleton-formula/releases>`_ to get a version that isn't using the formhelper
 yet (if any).
 
 
