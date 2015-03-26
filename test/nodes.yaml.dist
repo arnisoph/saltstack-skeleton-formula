@@ -5,15 +5,18 @@ defaults:
   base_box_basedir: ../../../vagrant-devenv/shared/boxes
   osfam: debian
   synced_folders:
-    - src: assets/scripts/provision/
-      dst: /vagrant/scripts/
-    - src: ../share/
-      dst: /vagrant/share/
+    - src: assets/scripts/provision
+      dst: /vagrant/scripts
+    - src: ../../../salt-modules/_modules
+      dst: /vagrant/salt/_modules
+    - src: ../../../salt-modules/_states
+      dst: /vagrant/salt/_states
+    - src: ../share
+      dst: /vagrant/share
   provision:
     - name: basic
 #    - name: saltstack_install
     - name: saltstack_formulas
-      modules_custom: ../../../salt-modules/_modules/
       formulas:
         - name: skeleton
           base_dir: ../..
