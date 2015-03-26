@@ -2,9 +2,6 @@
 saltstack-skeleton-formula
 ==========================
 
-.. image:: http://img.shields.io/github/tag/bechtoldt/saltstack-skeleton-formula.svg
-    :target: https://github.com/bechtoldt/saltstack-skeleton-formula/tags
-
 .. image:: http://issuestats.com/github/bechtoldt/saltstack-skeleton-formula/badge/issue
     :target: http://issuestats.com/github/bechtoldt/saltstack-skeleton-formula
 
