@@ -76,3 +76,6 @@ Recommended formulas:
 Further reading:
 
 * Documentation and Standardisation of SaltStack formulas: https://github.com/bechtoldt/formula-docs
+
+.. image:: https://asciinema.org/a/18108.png
+    :target: https://asciinema.org/a/18108
