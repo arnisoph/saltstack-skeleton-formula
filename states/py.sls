@@ -7,7 +7,7 @@ __formula__ = 'skeleton'
 
 def run():
     config = {}
-    datamap = __salt__['formhelper.defaults'](__formula__, __env__, ['yaml'])['yaml']
+    datamap = __salt__['formhelper.defaults'](__formula__, __env__)
     _gen_state = __salt__['formhelper.generate_state']
 
     # SLS includes/ excludes

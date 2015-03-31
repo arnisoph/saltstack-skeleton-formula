@@ -1,6 +1,6 @@
 #!jinja|yaml
 
-{% set datamap = salt['formhelper.defaults']('skeleton', saltenv, ['yaml'])['yaml'] %}
+{% set datamap = salt['formhelper.defaults']('skeleton', saltenv) %}
 
 # SLS includes/ excludes
 include: {{ datamap.sls_include|default([]) }}
