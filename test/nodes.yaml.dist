@@ -11,11 +11,11 @@ defaults:
       dst: /vagrant/salt/_modules
     - src: ../../../salt-modules/_states
       dst: /vagrant/salt/_states
-    - src: ../share
+    - src: ../shared
       dst: /vagrant/share
   provision:
     - name: basic
-#    - name: saltstack_install
+    - name: saltstack_install_bootstrap
     - name: saltstack_formulas
       formulas:
         - name: skeleton
