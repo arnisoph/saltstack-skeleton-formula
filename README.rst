@@ -8,6 +8,10 @@ saltstack-skeleton-formula
 .. image:: https://api.flattr.com/button/flattr-badge-large.png
     :target: https://flattr.com/submit/auto?user_id=bechtoldt&url=https%3A%2F%2Fgithub.com%2Fbechtoldt%2Fsaltstack-skeleton-formula
 
+.. image:: https://badges.gitter.im/Join%20Chat.svg
+   :alt: Join the chat at https://gitter.im/bechtoldt/saltstack-skeleton-formula
+   :target: https://gitter.im/bechtoldt/saltstack-skeleton-formula?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
 SaltStack formula skeleton that can be used for new formulas
 
 .. contents::
