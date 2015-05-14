@@ -1,18 +1,25 @@
 ---
 defaults:
   domain: formulas.local.arnoldbechtoldt.com
-  base_box: DEV_Debian_78_salt_arbe_git-virtualbox-CURRENT.box
+  base_box: DEV_Debian_78_salt_arbe_20152_git-virtualbox-v0.4-32-g26a68ac.box
   base_box_basedir: ../../../vagrant-devenv/shared/boxes
   osfam: debian
   synced_folders:
+    # Common folders
     - src: assets/scripts/provision
       dst: /vagrant/scripts
+    - src: ../shared/misc
+      dst: /vagrant/shared/misc
+
+    # Salt related folders
+    - src: ../shared/salt/devenv
+      dst: /vagrant/shared/salt/devenv
+    #- src: ../../github/salt
+    #  dst: /vagrant/src/salt
     - src: ../../../salt-modules/_modules
       dst: /vagrant/salt/_modules
     - src: ../../../salt-modules/_states
       dst: /vagrant/salt/_states
-    - src: ../shared
-      dst: /vagrant/share
   provision:
     - name: basic
     - name: saltstack_install_bootstrap
