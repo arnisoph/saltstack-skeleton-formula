@@ -9,6 +9,7 @@ todo:
   - add tests
 extra:
   flattr: https://flattr.com/profile/bechtoldt
+  gratipay: bechtoldt
   recommended_formulas:
     - name: saltstack-salt-formula
       descr: SaltStack management

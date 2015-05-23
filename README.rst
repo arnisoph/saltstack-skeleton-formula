@@ -3,12 +3,17 @@ saltstack-skeleton-formula
 ==========================
 
 
-.. image:: https://img.shields.io/badge/flattr-donate-yellow.svg
-    :alt: Donate on flattr
+.. image:: https://img.shields.io/badge/flattr-donate-red.svg
+    :alt: Donate via flattr
     :target: https://flattr.com/profile/bechtoldt
 
-.. image:: https://badges.gitter.im/Join%20Chat.svg
-    :alt: Join the chat at https://gitter.im/bechtoldt/saltstack-skeleton-formula
+.. image:: https://img.shields.io/gratipay/bechtoldt.svg
+    :alt: Donate via Gratipay
+    :target: https://www.gratipay.com/bechtoldt/
+
+
+.. image:: https://img.shields.io/badge/gitter-chat-brightgreen.svg
+    :alt: Join Chat
     :target: https://gitter.im/bechtoldt/saltstack-skeleton-formula?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
 SaltStack formula skeleton that can be used for new formulas
