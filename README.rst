@@ -32,7 +32,7 @@ Instructions
 Please refer to https://github.com/bechtoldt/formula-docs to learn how to use
 this formula, how it is built and how you can add your changes.
 
-**NOTICE:** This formula uses the formhelper module which is a very useful Salt execution module that isn't available
+**NOTICE:** This formula might uses the formhelper module which is a very useful Salt execution module that isn't available
 in upstream yet. Please consider retrieving it manually from https://github.com/bechtoldt/salt-modules and
 make it available to your Salt installation. Read `SaltStack documentation <http://docs.saltstack.com/en/latest/ref/modules/#modules-are-easy-to-write>`_ to
 see how this can be achieved.
@@ -54,6 +54,12 @@ In general:
 3. Submit your pull request (PR) on Github, wait for feedback
 
 But it’s better to `file an issue <https://github.com/bechtoldt/saltstack-skeleton-formula/issues/new>`_ with your idea first.
+
+
+Authors
+-------
+
+* Arnold Bechtoldt <mail@arnoldbechtoldt.com>
 
 
 TODO
