@@ -1,5 +1,4 @@
 name: saltstack-skeleton-formula
-license: Apache-2.0
 source: https://github.com/bechtoldt/saltstack-skeleton-formula
 summary: SaltStack formula skeleton that can be used for new formulas
 todo:
@@ -7,16 +6,6 @@ todo:
   - 'table/ matrix: os/salt compatibility (dedicated file)'
   - add list of available states
   - add tests
-#dependencies: FIXME
-#compatibility: FIXME
 extra:
-  flattr: https://flattr.com/profile/bechtoldt
-  gratipay: bechtoldt
-  recommended_formulas:
-    - name: saltstack-salt-formula
-      descr: SaltStack management
-      url: https://github.com/bechtoldt/saltstack-salt-formula
-  further_reading:
-    - 'Documentation and Standardisation of SaltStack formulas: https://github.com/bechtoldt/formula-docs'
   asciinema:
     link: https://asciinema.org/a/18108
