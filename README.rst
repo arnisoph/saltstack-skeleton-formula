@@ -2,18 +2,21 @@
 saltstack-skeleton-formula
 ==========================
 
-.. image:: https://api.flattr.com/button/flattr-badge-large.png
-    :target: https://flattr.com/submit/auto?user_id=bechtoldt&url=https%3A%2F%2Fgithub.com%2Fbechtoldt%2Fsaltstack-skeleton-formula
+
+.. image:: https://img.shields.io/badge/flattr-donate-yellow.svg
+    :alt: Donate on flattr
+    :target: https://flattr.com/profile/bechtoldt
 
 .. image:: https://badges.gitter.im/Join%20Chat.svg
-   :alt: Join the chat at https://gitter.im/bechtoldt/saltstack-skeleton-formula
-   :target: https://gitter.im/bechtoldt/saltstack-skeleton-formula?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+    :alt: Join the chat at https://gitter.im/bechtoldt/saltstack-skeleton-formula
+    :target: https://gitter.im/bechtoldt/saltstack-skeleton-formula?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
 SaltStack formula skeleton that can be used for new formulas
 
 .. contents::
     :backlinks: none
     :local:
+
 
 Instructions
 ------------
@@ -60,15 +63,14 @@ But it’s better to `file an issue <https://github.com/bechtoldt/saltstack-skel
 TODO
 ----
 
-* add instructions how to use formhelper, add information about it in the
-  formula-docs (dependency), show up alternative?
+* add instructions how to use formhelper, add information about it in the formula-docs (dependency), show up alternative?
 * table/ matrix: os/salt compatibility (dedicated file)
 * add list of available states
 * add tests
 
 
-Additional Resources
---------------------
+Miscellaneous
+-------------
 
 Recommended formulas:
 
@@ -77,6 +79,7 @@ Recommended formulas:
 Further reading:
 
 * Documentation and Standardisation of SaltStack formulas: https://github.com/bechtoldt/formula-docs
+
 
 .. image:: https://asciinema.org/a/18108.png
     :target: https://asciinema.org/a/18108
