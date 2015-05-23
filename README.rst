@@ -41,18 +41,6 @@ Take a look at older `releases <https://github.com/bechtoldt/saltstack-skeleton-
 yet (if any).
 
 
-Compatibility
--------------
-
-See <TODO> file to see which Salt versions and operating systems are supported.
-
-
-Dependencies
-------------
-
-None
-
-
 Contributing
 ------------
 

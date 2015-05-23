@@ -7,6 +7,8 @@ todo:
   - 'table/ matrix: os/salt compatibility (dedicated file)'
   - add list of available states
   - add tests
+#dependencies: FIXME
+#compatibility: FIXME
 extra:
   flattr: https://flattr.com/profile/bechtoldt
   gratipay: bechtoldt
