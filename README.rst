@@ -11,6 +11,9 @@ saltstack-skeleton-formula
     :alt: Donate via Gratipay
     :target: https://www.gratipay.com/bechtoldt/
 
+.. image:: https://img.shields.io/badge/license-Apache--2.0-blue.svg
+    :alt: Apache-2.0-licensed
+    :target: https://www.gratipay.com/bechtoldt/
 
 .. image:: https://img.shields.io/badge/gitter-chat-brightgreen.svg
     :alt: Join Chat
