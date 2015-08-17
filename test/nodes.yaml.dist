@@ -30,4 +30,4 @@ defaults:
     - name: saltstack_config
     - name: saltstack_services
 nodes:
-  client1: {}
+  skeleton1: {}
