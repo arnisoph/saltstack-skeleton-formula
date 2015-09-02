@@ -20,6 +20,7 @@
 *.rar
 *.rpm
 *.tar
+*.tgz
 *.udeb
 *.war
 *.zip
