@@ -6,16 +6,14 @@ defaults:
   osfam: debian
   synced_folders:
     # Common folders
-    - src: assets/scripts/provision
-      dst: /vagrant/scripts
     - src: ../shared/misc
       dst: /vagrant/shared/misc
 
     # Salt related folders
     - src: ../shared/salt/devenv
       dst: /vagrant/shared/salt/devenv
-    #- src: ../../github/salt
-    #  dst: /vagrant/src/salt
+    - src: ../../../salt
+      dst: /vagrant/src/salt
     - src: ../../../salt-modules/_modules
       dst: /vagrant/salt/_modules
     - src: ../../../salt-modules/_states
