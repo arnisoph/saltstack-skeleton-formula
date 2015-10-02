@@ -1,6 +1,6 @@
 kernel:
-  Linux:
-    system: Global default
+  default:
+    global_system: Global default
 os_family:
   Amazon:
     system: Amazon family
