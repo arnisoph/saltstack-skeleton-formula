@@ -19,14 +19,14 @@ def run():
         {'name': 'echo The time is $(date)'},
         ]
 
-    state_id = 'cmd_date'
+    state_id = 'py_cmd_date'
     config[state_id] = _gen_state('cmd', 'run', attrs)
 
     attrs = [
         {'name': 'echo Your system is \'{system}\''.format(system=datamap['system'])},
         ]
 
-    state_id = 'cmd_system'
+    state_id = 'py_cmd_system'
     config[state_id] = _gen_state('cmd', 'run', attrs)
 
     return config
