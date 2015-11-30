@@ -4,3 +4,9 @@
 [submodule "test/vagrant-assets"]
 	path = test/vagrant-assets
 	url = https://github.com/bechtoldt/vagrant-assets
+[submodule "test/docker-assets/assets/salt-modules"]
+	path = test/docker-assets/assets/salt-modules
+	url = https://github.com/bechtoldt/salt-modules
+[submodule "test/docker"]
+	path = test/docker
+	url = https://github.com/bechtoldt/salt-formula-docker-test
